@@ -521,6 +521,7 @@ class HtmlHelper {
 			$data = $log->formatLog($data);
 			$data = array_reverse($data);
 			foreach ($data as $line) {
+				if (!is_a($line['datetime'], 'DateTime')) $line['datetime'] = new DateTime();
 				if (intval($line['datetime']->format('U')) > $timestamp) {
 					$class = 'default';
 					if (strpos(strtolower($line['level']), 'error') !== false) $class = 'danger';
