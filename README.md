@@ -33,6 +33,7 @@ $settings = array(
 			)
 		)
 );
+```
 
 * `name` is used in the file selection menu
 * `path` where the files are stored at
