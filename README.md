@@ -44,4 +44,4 @@ $settings = array(
 
 #Disclaimer
 
-This script was created to meet an internal need and its features are strongly binded to what we need from it at any given moment in time. Feel free to fork it but don't expect any support from our side.
+This script was created to meet an internal need and its features are strongly binded to what we need from it at any given moment. Feel free to fork it but don't expect any support from our side.
